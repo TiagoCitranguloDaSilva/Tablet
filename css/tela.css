@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+:root{
+    --PretoTela: #131313;
+}
+
+#tela{
+    width: 1100px;
+    height: 570px;
+    background-image: url('../img/fundo.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+#not{
+    width: 100%;
+    height: 25px;
+    background-color: var(--PretoTela);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#hora{
+    color: white;
+    padding: 5px 25px;
+    width: min-content;
+}
+
+#container{
+    width: 100px;
+}
+
+#wifi{
+    width: 20px;
+    height: 20px;
+    background-image: url('../img/no wifi.png');
+    background-size: cover;
+}
+
+#touch{
+    width: 100%;
+    height: 545px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#display{
+    width: 90%;
+    height: 90%;
+    display: grid;
+    row-gap: 20px;
+}
+
+.botao{
+    display: inline-grid;
+    background-color: purple;
+    margin: 20px;
+    width: 80px;
+    height: 80px;
+}
