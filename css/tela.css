@@ -7,6 +7,7 @@
 #tela{
     width: 1100px;
     height: 570px;
+    background-color: rgb(131, 131, 131);
     background-image: url('../img/fundo.jpg');
     background-size: cover;
     position: relative;
@@ -43,20 +44,29 @@
     height: 545px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    position: relative;
+    padding: 0px 20px;
 }
 
 #display{
-    width: 90%;
-    height: 90%;
-    display: grid;
-    row-gap: 20px;
+    box-sizing: border-box;
+    width: 1060px;
+    height: 545px;
+    display: inline-grid;
+    grid-template-columns: repeat(auto-fit, 80px);
+    grid-template-rows: repeat(3, 80px);
+    column-gap: 70px;
+    row-gap: 80px;
+    overflow-x: scroll;
+    overflow-y: unset;
+    grid-auto-flow: column;
+    align-content: center;
+    position: absolute;
+    overflow: hidden;
 }
 
 .botao{
-    display: inline-grid;
     background-color: purple;
-    margin: 20px;
     width: 80px;
     height: 80px;
 }
