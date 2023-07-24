@@ -96,3 +96,8 @@ iframe{
     background-image: url('../img/IconJogoDeCartasSuperFamoso.png');
     background-color: white;
 }
+
+#paciencia{
+    background-image: url('../img/IconPaciencia.jpg');
+    background-color: #702d00;
+}
