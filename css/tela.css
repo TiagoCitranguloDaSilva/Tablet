@@ -72,6 +72,7 @@
     background-color: purple;
     width: 80px;
     height: 80px;
+    background-size: cover;
 }
 
 iframe{
@@ -89,4 +90,9 @@ iframe{
     background-color: red;
     font-weight: bold;
     display: none;
+}
+
+#JogoDeCartasSuperFamoso{
+    background-image: url('../img/IconJogoDeCartasSuperFamoso.png');
+    background-color: white;
 }
