@@ -38,8 +38,54 @@
     background-size: cover;
 }
 
-iframe{
-    width: 100%;
+
+#touch{
+    background-image: url('../img/fundo.jpg');
+    background-size: cover;
+    width: 1100px;
     height: 545px;
+    display: flex;
+    align-items: center;
+    position: relative;
 }
 
+#display{
+    box-sizing: border-box;
+    width: 1060px;
+    height: 545px;
+    display: inline-grid;
+    grid-template-columns: repeat(auto-fit, 80px);
+    grid-template-rows: repeat(3, 80px);
+    column-gap: 70px;
+    row-gap: 80px;
+    overflow-x: scroll;
+    overflow-y: unset;
+    grid-auto-flow: column;
+    align-content: center;
+    position: absolute;
+    overflow: hidden;
+    margin: 0px 20px;
+}
+
+.botao{
+    background-color: purple;
+    width: 80px;
+    height: 80px;
+}
+
+iframe{
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+#x{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    font-weight: bold;
+    display: none;
+}
