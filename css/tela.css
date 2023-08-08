@@ -107,4 +107,11 @@ iframe{
 
 #vinteUm{
     background-color: white;
+    background-image: url('../img/AppIcon21.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+button{
+    cursor: pointer;
 }
