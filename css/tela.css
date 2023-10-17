@@ -112,6 +112,13 @@ iframe{
     background-repeat: no-repeat;
 }
 
+#pong{
+    background-color: white;
+    background-image: url('../img/FotoPong.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 button{
     cursor: pointer;
 }
