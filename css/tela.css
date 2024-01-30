@@ -126,6 +126,13 @@ iframe{
     background-repeat: no-repeat;
 }
 
+#colorPattern{
+    background-color: transparent;
+    background-image: url('../img/colorPatternIcon.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 button{
     cursor: pointer;
 }
