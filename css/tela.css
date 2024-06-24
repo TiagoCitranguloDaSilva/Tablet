@@ -133,6 +133,13 @@ iframe{
     background-repeat: no-repeat;
 }
 
+#JogoDasSenhas{
+    background-color: transparent;
+    background-image: url('../img/JogoDasSenhas.ico');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 button{
     cursor: pointer;
 }
